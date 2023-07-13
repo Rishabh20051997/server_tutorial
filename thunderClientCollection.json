@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Employee Testing Tutorial",
+    "dateExported": "2023-07-13T11:38:03.210Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "24708ef7-a083-4e42-81be-f856ca7e2027",
+            "colId": "a99e55cf-f210-4ef0-a3cb-0cd123a44cff",
+            "containerId": "",
+            "name": "Employee Get",
+            "url": "http://localhost:3500/employees",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-13T11:31:57.776Z",
+            "modified": "2023-07-13T11:32:53.374Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dc6add96-9ec0-4a3d-b682-6d0eac65f686",
+            "colId": "a99e55cf-f210-4ef0-a3cb-0cd123a44cff",
+            "containerId": "",
+            "name": "Employee Put",
+            "url": "http://localhost:3500/employees",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-07-13T11:33:25.180Z",
+            "modified": "2023-07-13T11:34:37.037Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\": \"Rishabh\",\n  \"lastname\": \"Sharma\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a234bc75-7986-45a8-83f7-5dae755aacd2",
+            "colId": "a99e55cf-f210-4ef0-a3cb-0cd123a44cff",
+            "containerId": "",
+            "name": "Employee Post",
+            "url": "http://localhost:3500/employees",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-13T11:35:00.081Z",
+            "modified": "2023-07-13T11:35:13.834Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\": \"Rishabh\",\n  \"lastname\": \"Sharma\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "72bf5c11-29f0-4d5c-9435-1d93f3e2bc96",
+            "colId": "a99e55cf-f210-4ef0-a3cb-0cd123a44cff",
+            "containerId": "",
+            "name": "Employee Delete",
+            "url": "http://localhost:3500/employees",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-07-13T11:35:19.271Z",
+            "modified": "2023-07-13T11:35:51.422Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1e3ae04b-abaa-412a-9522-038934a7f689",
+            "colId": "a99e55cf-f210-4ef0-a3cb-0cd123a44cff",
+            "containerId": "",
+            "name": "Employee By Id",
+            "url": "http://localhost:3500/employees/123",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-07-13T11:36:10.058Z",
+            "modified": "2023-07-13T11:36:41.158Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
