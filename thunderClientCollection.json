@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Authorization API",
-    "dateExported": "2023-07-13T12:29:40.135Z",
+    "dateExported": "2023-07-14T12:10:15.792Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -99,7 +99,7 @@
             "method": "POST",
             "sortNum": 60000,
             "created": "2023-07-13T12:26:55.595Z",
-            "modified": "2023-07-13T12:29:25.481Z",
+            "modified": "2023-07-14T11:52:10.586Z",
             "headers": [],
             "params": [],
             "body": {
@@ -126,6 +126,39 @@
                 "raw": "{\n  \"user\": \"Rishabh\",\n  \"pwd\": \"1234\"\n}",
                 "form": []
             },
+            "tests": []
+        },
+        {
+            "_id": "30c389cd-d5d4-4d5c-9a3c-3a0d193bee72",
+            "colId": "c894da17-8b25-480a-8d0c-e35f92f7bb4e",
+            "containerId": "",
+            "name": "Refresh Token",
+            "url": "http://localhost:3500/refresh",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-07-14T04:45:36.429Z",
+            "modified": "2023-07-14T04:47:13.080Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"refreshToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJpc2hhYmgiLCJpYXQiOjE2ODkzMDk5OTcsImV4cCI6MTY4OTM5NjM5N30.cqTCYCTIHf0o9G__v9pyu4mq_nmfEk0tTH7rsnpJY_8\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9c2cd084-3505-4606-8fc8-d08ddaa9c13b",
+            "colId": "c894da17-8b25-480a-8d0c-e35f92f7bb4e",
+            "containerId": "",
+            "name": "Logout Request",
+            "url": "http://localhost:3500/logout",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-07-14T11:51:00.219Z",
+            "modified": "2023-07-14T11:51:13.927Z",
+            "headers": [],
+            "params": [],
             "tests": []
         }
     ]
