@@ -1,18 +1,12 @@
 # server_tutorial
 
 
-# JWT Token
-1. User Token & Refresh Token
-2. Logout API, Refresh Token API
-3. dot.env introduced.
-4. Cookies used to send refresh token
+# User Authorization through different Roles
+1. "Admin": 5150,
+   "Editor": 1984,
+   "User": 2001
 
 
-# Steps to generate ACCESS_TOKEN_SECRET  & REFRESH_TOKEN_SECRET
-Run this command in node -> require('crypto').randomBytes(64).toString('hex')
-Note -> crypto is by default available
-
-# Never post .env & other secret on github. This is dummy project. Hence pushed
 
 # Valid Links
 1. http://localhost:3500/index - Index Page
@@ -23,4 +17,5 @@ Note -> crypto is by default available
 6. GET /employee/:id
 
 
-# Need to Recheck -> Cookies not working with refresh & logout in thunder client
+# Note
+Add auth token in Auth Bearer Section to validate Request
