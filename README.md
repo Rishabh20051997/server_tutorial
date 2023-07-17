@@ -1,12 +1,8 @@
 # server_tutorial
 
 
-# MongoDb connection added
-1. Login to https://cloud.mongodb.com/
-2. Create Free Shared Access
-3. create cluster
-4. Add access through IP or anywhere.
-5. From Connection get Server String & Replace password
+# Register Code Added through mongoDB
+# Schemas Added
 
 
 
