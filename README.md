@@ -1,10 +1,12 @@
 # server_tutorial
 
 
-# User Authorization through different Roles
-1. "Admin": 5150,
-   "Editor": 1984,
-   "User": 2001
+# MongoDb connection added
+1. Login to https://cloud.mongodb.com/
+2. Create Free Shared Access
+3. create cluster
+4. Add access through IP or anywhere.
+5. From Connection get Server String & Replace password
 
 
 
